@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,500;0,900;1,200;1,400;1,900&family=Solway:wght@800&display=swap');
+
+
+body {
+    /* Comments */
+    background-color: rgb(255, 253, 240);
+    font-family: 'Mulish', sans-serif;
+    font-size: 24px;
+    letter-spacing: 1px;
+    color: #032b69;
+}
+
+h1{ 
+    font-family: 'Solway', serif;
+    margin: 0 auto;
+    /* margin-bottom: 20px; */
+    width: 38%;
+    padding: 10px;
+    color: #032b69;
+    font-size: 60px;
+    letter-spacing: -0.5px;
+}
+
+p{
+    /* width: 70%;
+    margin-left: 30px;
+    /* margin: 0 auto; */
+}
+
+img{
+    display: block;
+    width: 420px;
+    margin: 0 auto;
+    margin-top: 25px;
+    /* margin 0 auto is to center something horizontally (the best way) */
+}
+
+.paragraph{
+    margin-bottom: 20px;
+    padding-left: 40px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 auto;
+    width: 80%;
+    
+}
+
+/* Basic styling links */
+a{
+    color: rgb(233, 128, 0);
+    text-decoration: none; /* To remove the underline in links */
+}
+
+/* In-depth styling of links */
+a:link,
+a:visited {
+    color: rgb(233, 128, 0);
+    text-decoration: none;
+}
+
+a:hover,
+a:active {
+    color: #86a2ac;
+    text-decoration: none;
+    border-bottom: 2px solid #86a2ac;
+    padding-bottom: 2px;
+}
+
